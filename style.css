@@ -340,3 +340,56 @@ body {
     width: 75%;
     background: #e426e4;
 }
+
+
+
+
+
+
+/***** SERVICES *****/
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.title p {
+    font-size: 1em;
+    width: 80%;
+}
+
+.services .content .card {
+    background: #fff;
+    width: 310px;
+    margin: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+}
+
+.services .content .card .service-icon {
+    color: #1823c2;
+    font-size: 5em;
+    text-align: center;
+    transition: transform 0.5 ease;
+}
+
+.services .content .card:hover .service-icon {
+    transform: translateY(-10px);
+}
+
+.services .content .card .info {
+    text-align: center;
+}
+
+.services .content .card .info h3 {
+    color: #3422d6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
