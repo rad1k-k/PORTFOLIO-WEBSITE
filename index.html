@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media query.css">    
 </head>
@@ -43,12 +43,12 @@
                 <h3>Front End Developer</h3>
                 <h3>UX Designer</h3>
             </div>
-            <a href="#" class="btn">See My Work</a>
+            <!-- <a href="#" class="btn">See My Work</a>
             <div class="media-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
-            </div>
+            </div> -->
         </div>
     </section>
     
@@ -242,7 +242,8 @@
 
         <div class="content">
             <div class="row">
-                <div class="card reveal">
+
+                <!-- <div class="card reveal">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
@@ -286,30 +287,42 @@
                         <span>mywebsite.com</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
-                <div class="contact-form reveal">
-                    <h3>Send Message</h3>
+                <form action="mailer.php" method="post" class="box">
+                    <div class="contact-form reveal">
+                        <h3>Send Message</h3>
 
-                    <div class="input-box">
-                        <input type="text" name="" value="" placeholer="Name">
+                        <div class="input-box">
+                            <input type="text" name="name" value="" placeholder="Name">
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" name="email" value="" placeholder="Email">
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="message" cols="80" rows="8" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="submit" class="send-btn" name="" value="Send">
+                        </div>
                     </div>
-
-                    <div class="input-box">
-                        <input type="text" name="" value="" placeholer="Email">
-                    </div>
-
-                    <div class="input-box">
-                        <textarea name="" cols="80" rows="8" placeholder="Message"></textarea>
-                    </div>
-
-                    <div class="input-box">
-                        <input type="submit" class="send-btn" name="" value="Send">
-                    </div>
-
-                </div>
+                </form>
             </div>
+            
+        </div>
+
+        <div class="social-media reveal">
+            <a href="https://www.facebook.com/radka.krenova" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="https://www.instagram.com/radka.__/?fbclid=IwAR2dRahUAPNzRhSNn1YCqloGLu619paCc6m846cXL0fmrFJOFzFGaKePRI4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="https://www.linkedin.com/in/radka-krenova-00b39b84/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/rad1k-k" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
 
     </section>
@@ -319,13 +332,7 @@
 
 <!----- FOOTER ----->
     <section class="footer">
-        <span class="footer-title">Radka Krenova</span>
-        <p>Copyright @2022 <a href="#">Radka Krenova</a>All Rights Reserved</p>
-
-
-
-
-
+        &copy; 2022 Radka Krenova
     </section>
 
 
