@@ -557,8 +557,6 @@ body {
     background: #3964f1;
 }
 
-
-
 /* Social Media Icons */
 .social-media {
     display: flex;
@@ -612,8 +610,6 @@ body {
 .social-media a:hover .fa-github {
     color: rgb(0, 0, 0);
 }
-
-
 
 
 
