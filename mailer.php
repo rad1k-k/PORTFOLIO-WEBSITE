@@ -13,7 +13,7 @@
     }
 
     // Nastavte si email, nakterý chcete, aby se vyplněný formulář odeslal - jakýkoli váš email
-    $recipient = "info@radkakrenova.com";
+    $recipient = "rad.krenova@gmail.com";
 
     // Nastavte předmět odeslaného emailu
     $subject = "Máte nový kontakt od: $name";
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Přesměrování na stránku, pokud vše proběhlo v pořádku
-    header("Location:https://www.radkakrenova.com/index.html?success=1#form");
+    header("Location:https://www.radkakrenova.com/thanks.html?success=1#form");
 
 ?>
