@@ -4,31 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Radka Krenova</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media query.css">    
 </head>
 <body>
-
+    <div id="preloader"></div>
+    
     <div class="scrollToTop-btn">
         <i class="fas fa-angle-double-up"></i>
     </div>
 
 
-
 <!----- HEADER ----->
     <header>
-        <a href="#" class="brand">Radka</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
-            <a href="#main">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-        </div>
+            <a href="index.html" class="brand">
+                <img src="img/yesmylogo.png" alt="">
+            </a>
+            <div class="menu-btn"></div>
+    
+            <div class="navigation">
+                <div class="nav-item">
+                    <a href="#main">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about">About</a>
+                    
+                </div>
+                <div class="nav-item">
+                    <a href="#skills">Skills</a>  
+                </div>
+            
+                <div class="nav-item">
+                    <a href="#work">Work</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact">Contact</a>  
+                </div>
+                <div class="nav-item">
+                    <a href="blog/index.html">Blog</a>  
+                </div>
+                
+            </div>
     </header>
 
 
@@ -45,13 +63,6 @@
                 <h3>UX Designer</h3>
             </div>
 
-            
-            <!-- <a href="#" class="btn">See My Work</a>
-            <div class="media-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-            </div> -->
         </div>
     </section>
     
@@ -86,71 +97,73 @@
         <div class="title reveal">
             <h2 class="section-title">My Skills</h2>
         </div>
-        <div class="content">
-            <div class="column col-left reveal">
-                <h2 class="content-title">My Skills and Experiences</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quam non optio sunt perspiciatis earum, in incidunt corporis minus saepe quis voluptates laboriosam pariatur facilis alias, quas ducimus animi eius.</p>
-                <a href="#" class="btn">See More</a>
-            </div>
-            <div class="column col-right reveal">
 
-                <div class="bar">
-                    <div class="info">
-                        <span>HTML</span>
-                        <span>95%</span>
-                    </div>
-                    <div class="line html"></div>
+
+
+        <div class="container-skills reveal">
+
+            <div class="flip-card">
+                <div class="flip-card-front">
+                  <div class="inner">
+                    <img src="img/3img (3).png" class="icon">
+                    <h3>Front-end</h3>
+                    <p></p>
+                  </div>
                 </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="line css"></div>
+                <div class="flip-card-back">
+                  <div class="inner">
+                    <img src="" class="icon" />
+                    <h3></h3>
+                    <p>HTML<br>CSS<br>Javascript<br>GIT<br>Github<br>Bootstrap<br>Wordpress<br>Responsive Web Design</p>
+                  </div>
                 </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>Javascript</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="line javascript"></div>
+              </div>
+        
+              
+              <div class="flip-card">
+                <div class="flip-card-front">
+                  <div class="inner">
+                    <img src="img/3img (3).png" class="icon">
+                    <h3>Design</h3>
+                    <p></p>
+                  </div>
                 </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>JQuery</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="line jquerry"></div>
+                <div class="flip-card-back">
+                  <div class="inner">
+                    <img src="" class="icon">
+                    <h3></h3>
+                    <p>Figma<br>AdobeXD<br>Photoshop<br>Canva</p>
+                  </div>
                 </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>PHP</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="line php"></div>
+              </div>
+        
+        
+              <div class="flip-card">
+                <div class="flip-card-front">
+                  <div class="inner">
+                    <img src="img/3img (3).png" class="icon">
+                    <h3>Business</h3>
+                   <p></p>
+                  </div>
                 </div>
+                <div class="flip-card-back">
+                  <div class="inner">
+                    <img src="" class="icon">
+                    <h3></h3>
+                    <p>Online Marketing<br>Google Analytics </p>
+                  </div>
+                </div>
+              </div>
 
-            </div>
-        </div>
-    </section>
-    
-
-
-
-<!----- SERVICES ----->
-    <section class="services" id="services">
-        <div class="title reveal">
-            <h2 class="section-title">Tools I like to use</h2>
-            <p>lotrmq Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repellat mollitia natus inventore vel id in tempore sapiente quibusdam quidem animi ab atque harum magnam fugit optio illum, sunt minus!  Lorem ipsum dtam lotrmqonsequatur odit debitis?</p>
         </div>
 
-        <div class="container">
 
-            <div class="icons">
+
+        <div class="container reveal">
+
+            <div class="icons reveal">
+
+                
                 <a href="#">
                     <i class="fa-brands fa-html5"></i>
                 </a>
@@ -182,36 +195,6 @@
                     <i class="fa-brands fa-figma"></i>
                 </a>
         
-                <a href="#">
-                    <i class="fa-brands fa-php"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fa-brands fa-js"></i>
-                </a>
-        
-                <a href="#">
-                    <i class="fa-brands fa-git-square"></i>
-                </a>
-        
-                <a href="#">
-                    <i class="fa-brands fa-wordpress"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fa-brands fa-bootstrap"></i>
-        
-                <a href="#">
-                    <i class="fa-brands fa-figma"></i>
-                </a>
-        
-                <a href="#">
-                    <i class="fa-brands fa-php"></i>
-                </a>
         
             </div>
         
@@ -251,122 +234,144 @@
             </div>
         </div> -->
 
-    </section>
-
+</section>
 
 
 <!----- WORK ----->
     <section class="work reveal" id="work">
         <div class="title reveal">
             <h2 class="section-title">My Work</h2>
-            <p>Take a look at some of the projects I have done recently and am working on now</p>
+            <p>Take a look at some of the projects I have done recently and am working on now ake a look at some of the projects I have done recently and am worki ake a look at some of the projects I have done recently and am worki ake a look at some of the projects I have done recently and am worki</p>
         </div>
 
 
-        <div class="projects reveal">
+        <div class="myprojects reveal">
 
-            <div class="project-column">
-                <span></span>
-                <a href="projects/FORM/index.html"><img src="img/project-1.png" alt=""></a>
-            </div>
-            <div class="project-column">
-                <h3>Project 01</h3>
-                <p>lorem ipsum lorem</p>
-                <div class="project-link">
-                    <a href="projects/FORM/index.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href="https://github.com/rad1k-k"><i class="fa-brands fa-github"></i></a>
+            <div class="project reveal">
+
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <a href="#"> <img src="img/Uhr.jpg"></a>
+                           
+                        </div>
+        
+                        <div class="text">
+                            <h3>Clock</h3>
+                            <p>Analog & Digital Clock Using HTML, CSS and Vanilla Javascript</p>
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
 
-            <div class="project-column">
-                <span></span>
-                <a href="projects/4. Website/index.html"><img src="img/project-2.png" alt=""></a>
-            </div>
-            <div class="project-column">
-                <h3>Project 01</h3>
-                <p>lorem ipsum lorem</p>
-                <div class="project-link">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-brands fa-github"></i>
+
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <a href=""><img src="img/Cut down.jpg"></a>
+                            
+                        </div>
+        
+                        <div class="text">
+                            <h3>Time Countdown</h3>
+                            <p>Coming soon page with countdown timer using HTML, CSS and JavaScript</p>
+        
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
 
-            
-            <div class="project-column">
-                <h3>Project 01</h3>
-                <p>lorem ipsum lorem</p>
-                <div class="project-link">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-brands fa-github"></i>
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <img src="img/img1.jpg">
+                        </div>
+        
+                        <div class="text">
+                            <h3>Project 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero.</p>
+        
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
-            <div class="project-column">
-                <span class="arrow"></span>
-                <a href=""><img src="img/project-3.png" alt=""></a>
-            </div>
 
 
-            <div class="project-column">
-                <h3>Project 01</h3>
-                <p>lorem ipsum lorem</p>
-                <div class="project-link">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-brands fa-github"></i>
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <img src="img/img1.jpg">
+                        </div>
+        
+                        <div class="text">
+                            <h3>Project 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero.</p>
+        
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
-            <div class="project-column">
-                <span class="arrow"></span>
-                <a href=""><img src="img/project-4.png" alt=""></a>
-            </div>
 
+
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <img src="img/img1.jpg">
+                        </div>
+        
+                        <div class="text">
+                            <h3>Project 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero.</p>
+        
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+
+                <div class="one-project reveal">
+                    <article>
+                        <div class="imgbox">
+                            <img src="img/img1.jpg">
+                        </div>
+        
+                        <div class="text">
+                            <h3>Project 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero.</p>
+        
+                            <div class="buttons">
+                                <a href="">Github</a>
+                                <a href="">Live</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+    
+
+                
+            </div>
         </div>
 
-
-
-        <!-- <div class="content">
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="card reveal">
-                <div class="card-img">
-                    <img src="img/Foto.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="title reveal">
-                <a href="#" class="btn">See All</a>
-            </div>
-
-        </div> -->
     </section>
+
+
+
+    
 
 
 
@@ -377,54 +382,8 @@
             <h2 class="section-title">Contact Me</h2>
         </div>
 
-        <div class="content">
+        <div class="content reveal">
             <div class="row">
-
-                <!-- <div class="card reveal">
-                    <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-
-                    <div class="info">
-                        <h3>Address</h3>
-                        <span>Address, City, Country</span>
-                    </div>
-                </div>
-
-
-                <div class="card reveal">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-
-                    <div class="info">
-                        <h3>Phone</h3>
-                        <span>+000 0000 000 00</span>
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="contact-icon">
-                        <i class="fas fa-at"></i>
-                    </div>
-
-                    <div class="info">
-                        <h3>Email Address</h3>
-                        <span>contact@gmail.com</span>
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="contact-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-
-                    <div class="info">
-                        <h3>Website</h3>
-                        <span>mywebsite.com</span>
-                    </div>
-                </div>
-            </div> -->
 
             <div class="row">
                 <form action="mailer.php" method="post" class="box">
@@ -448,8 +407,9 @@
                         </div>
                     </div>
                 </form>
+
             </div>
-            
+
         </div>
 
         <div class="social-media reveal">
@@ -460,6 +420,9 @@
             <a href="https://www.linkedin.com/in/radka-krenova-00b39b84/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
             <a href="https://github.com/rad1k-k" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            <a href="mailto:radka.krenov@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            
         </div>
 
     </section>
