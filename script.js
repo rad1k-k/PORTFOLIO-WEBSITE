@@ -1,8 +1,14 @@
+//preloader
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+});
+
+
 //javascript for navigation bar effects on scroll
 window.addEventListener("scroll", function(){
     const header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
-
 });
 
 
@@ -57,3 +63,30 @@ function reveal() {
         }
     }
 }
+
+
+//Javascript for Work section
+let previewContainer = document.querySelector(".project-preview");
+let previewBox = previewContainer.querySelectorAll(".preview");
+
+document.querySelectorAll(".myprojects .project").forEach(product => {
+    product.onclick = () => {
+        previewContainer.style.display = "flex";
+        let name = product.getAttribute("data-name");
+        previewBox.forEach(preview => {
+            let target = preview.getAttribute("data-target");
+            if(name == target) {
+                preview.classList.add("active");
+            }
+        });
+    };
+});
+
+previewBox.forEach(close => {
+    close.querySelector(".fa-times").onclick = () => {
+        close.classList.remove("active");
+        previewContainer.style.display = "none";
+    };
+});
+
+
