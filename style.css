@@ -227,7 +227,8 @@ header .navigation {
 
     right: 80px;
     height: 42px;
-    width: 57                                                                                                                                                                                                                                                                  %;
+    width: 57%;
+                                                                                                                                                                                                                                                                
     background-color: #262626;
     border-radius: 50px;
     box-shadow: 5px 5px 5px #0d0d0d inset,
@@ -349,7 +350,7 @@ body {
 
 .section-title {
     position: relative;
-    color: #262626;
+    color: #2626;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 60px;
