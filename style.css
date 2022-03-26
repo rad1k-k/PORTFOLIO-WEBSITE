@@ -225,9 +225,9 @@ header .navigation {
     justify-content: center;
 
 
-    right: 80px;
+    right: 133px;
     height: 42px;
-    width: 57%;
+    width: 47%;
                                                                                                                                                                                                                                                                 
     background-color: #262626;
     border-radius: 50px;
@@ -248,7 +248,7 @@ header .navigation a {
     float: left;
     margin: 2px;
     height: 40px;
-    width: 135px;
+    width: 110px;
     color: #fff;
     line-height: 40px;
     text-align: center;
