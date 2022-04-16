@@ -658,7 +658,7 @@ body {
 
 
   .container-skills .flip-card:nth-of-type(1) .flip-card-front {
-    background-image: url(img/grey-dark-vintage-background-texture-299176_1080x675.jpg);
+    background-image: url(img/obrazek\ \(9\).jpg);
     border-radius: 63% 37% 75% 25% / 35% 35% 65% 65%   ;
   }
 
@@ -674,7 +674,7 @@ body {
   }
 
   .container-skills .flip-card:nth-of-type(2) .flip-card-back {
-    background-image: url(img/kisspng-white-symmetry-structure-triangle-pattern-technology-sense-of-large-data-age-5aa325e715ec22.6901210215206415110898.png);
+    background-image: url(img/piqsels.com-id-zzrpo.jpg);
     border-radius: 44% 56% 44% 56% / 50% 53% 47% 50%   ;
   }
 
@@ -685,7 +685,7 @@ body {
   }
 
   .container-skills .flip-card:nth-of-type(3) .flip-card-back {
-    background-image: url(img/texture1.jpg);
+    background-image: url(img/piqsels.com-id-zzrpo.jpg);
     border-radius: 65% 35% 62% 38% / 50% 53% 47% 50%  ;
   }
 
@@ -732,16 +732,19 @@ body {
   .container-skills .inner h3 {
     margin-bottom: 8px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 40px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 700;
   }
   
   .container-skills .inner p {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     line-height: 28px;
+    font-weight: 600;
+    
   }
   
   .container-skills .flip-card:hover .flip-card-front {
@@ -808,7 +811,7 @@ body {
 
 .icons a:hover {
     background-position: 0% 100%;
-    color: #6d2161;
+    color: #871317;
     transform: scale(1.15);
     border-radius: 50%;
 }
@@ -2122,40 +2125,41 @@ hr {
 
 /*Work Divider - Top*/
 
-
-    .shape-5660{
-        overflow:hidden;
-        position:relative;
-        }
-        .shape-5660::before{ 
-        content:'';
-        font-family:'shape divider from ShapeDividers.com';
-        position: absolute;
-        z-index: 3;
-        pointer-events: none;
-        background-repeat: no-repeat;
-        bottom: -0.1vw;
-        left: -0.1vw;
-        right: -0.1vw;
-        top: -0.1vw; 
-        transform:scaleX(1.2);
-        transform-origin: 100% 0;
-        animation: 9s infinite alternate shape-anim-5660  linear;
-        background-size: 100% 16px;
-        background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 11" preserveAspectRatio="none"><path d="M0 1l1 10L2 1l1 10L4 1l1 10L6 1l1 10L8 1l1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10 1 10 1-10V0H0z" fill="%23d1d1d1"/></svg>'); 
-        }
-        
-        @media (min-width:2100px){
-        .shape-5660::before{
-        background-size: 100% calc(2vw + 16px);
-        }
-        }
-        
-        @keyframes shape-anim-5660 {
-          100% {
-            transform: scaleX(1.2) translateX(calc(100% - (100% / 1.2)));
-          }
-        }
+    .shape-2683{
+    overflow:hidden;
+    position:relative;
+    }
+    .shape-2683::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    transform:scaleX(4);
+    transform-origin: 100% 0;
+    animation: 4s infinite alternate shape-anim-2683  linear;
+    background-size: 100% 54px;
+    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140"><g fill="%230e0c0b"><path d="M0 82c8 7 24 10 40 9s29-4 43-6 30-6 45-5c19 2 35 9 53 12 27 4 56-1 80-8s43-18 64-26 47-16 75-17c29 0 57 7 85 4a140 140 0 0043-11c11 6 24 10 38 11 26 3 51-4 77-4 25 1 47 8 67 17s37 18 58 26 47 12 71 8c17-3 31-10 48-12 14-1 27 2 40 5s25 6 39 6 29-2 35-9V0H0z"/><path d="M0 92c8 6 24 9 40 8s29-3 43-6 30-5 45-4c19 1 35 8 53 11 27 4 56 0 80-8s43-17 64-26 47-16 75-17c29 0 57 7 85 4a140 140 0 0043-10c11 5 24 9 38 10 26 3 51-4 77-4 25 1 47 8 67 17s37 19 58 26 47 12 71 8c17-3 31-10 48-11 14-1 27 1 40 4s25 6 39 6 29-2 35-8V9H0z" opacity=".5"/></g></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shape-2683::before{
+    background-size: 100% calc(2vw + 54px);
+    }
+    }
+    
+    @keyframes shape-anim-2683 {
+      100% {
+        transform: scaleX(4) translateX(calc(100% - (100% / 4)));
+      }
+    }
+    
+       
         
            
 
