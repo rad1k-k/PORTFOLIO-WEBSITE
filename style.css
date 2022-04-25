@@ -47,7 +47,7 @@
 
 
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -76,6 +76,21 @@
      box-shadow: -5px -5px 10px #5c5454 inset,
                  5px 5px 10px rgb(197, 196, 196) inset;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section {
     padding: 100px 200px;
@@ -305,6 +320,12 @@ header {
     font-weight: normal;
     box-shadow: -5px -5px 10px #0d0d0d inset,
                  5px 5px 10px #333 inset;
+
+
+   backdrop-filter: blur(20px);
+   background: rgba(39, 29, 29, 0.65);
+   height: 4em;
+   border-bottom: 0.1px solid rgba(255, 255, 255, 0.1);
 
     
 }
@@ -580,6 +601,21 @@ body {
     text-align: justify;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1380,7 +1416,7 @@ article {
 #contact {
 
     z-index: 1;
-    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    background: linear-gradient(to right, #cf1130, #680c10);
 	background-size: 400% 400%;
 	width: 100%;
 	animation: animate-background 10s ease infinite;
@@ -1607,7 +1643,7 @@ article {
     position: relative;
     text-align: center;
     z-index: 1;
-    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    background: linear-gradient(to right, #cf1130, #680c10);
 	background-size: 400% 400%;
 	width: 100%;
 	animation: animate-background 10s ease infinite;
@@ -1778,6 +1814,7 @@ article {
 	justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 50;
 
 }
 
@@ -1871,8 +1908,11 @@ article {
     flex-wrap: wrap;
     position: relative;
 
+    z-index: 100;
 
-    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+
+    /* background: linear-gradient(to right, #141e30, #243b55, #10253a, #000c40); */
+    background: linear-gradient(to right, #cf1130, #680c10);
 	background-size: 400% 400%;
 	width: 100%;
 	animation: animate-background 10s ease infinite;
@@ -1928,11 +1968,10 @@ hr {
 
 
 /**** ANIMATED CIRCLES ****/
-/* .circles {
-	/* background: linear-gradient(to bottom, #f12711, #f5af19); */
+.circles {
 	width: auto;
 	height: auto;
-} */
+}
 
 .box-circles {
 	position: absolute;
@@ -1941,6 +1980,7 @@ hr {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+    z-index: 100;
 }
 .box-circles li {
 	position: absolute;
@@ -2023,7 +2063,7 @@ hr {
     content:'';
     font-family:'shape divider from ShapeDividers.com';
     position: absolute;
-    z-index: 3;
+    z-index: 200;
     pointer-events: none;
     background-repeat: no-repeat;
     bottom: -0.1vw;
@@ -2125,39 +2165,45 @@ hr {
 
 /*Work Divider - Top*/
 
-    .shape-2683{
-    overflow:hidden;
-    position:relative;
-    }
-    .shape-2683::before{ 
-    content:'';
-    font-family:'shape divider from ShapeDividers.com';
-    position: absolute;
-    z-index: 3;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    bottom: -0.1vw;
-    left: -0.1vw;
-    right: -0.1vw;
-    top: -0.1vw; 
-    transform:scaleX(4);
-    transform-origin: 100% 0;
-    animation: 4s infinite alternate shape-anim-2683  linear;
-    background-size: 100% 54px;
-    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140"><g fill="%230e0c0b"><path d="M0 82c8 7 24 10 40 9s29-4 43-6 30-6 45-5c19 2 35 9 53 12 27 4 56-1 80-8s43-18 64-26 47-16 75-17c29 0 57 7 85 4a140 140 0 0043-11c11 6 24 10 38 11 26 3 51-4 77-4 25 1 47 8 67 17s37 18 58 26 47 12 71 8c17-3 31-10 48-12 14-1 27 2 40 5s25 6 39 6 29-2 35-9V0H0z"/><path d="M0 92c8 6 24 9 40 8s29-3 43-6 30-5 45-4c19 1 35 8 53 11 27 4 56 0 80-8s43-17 64-26 47-16 75-17c29 0 57 7 85 4a140 140 0 0043-10c11 5 24 9 38 10 26 3 51-4 77-4 25 1 47 8 67 17s37 19 58 26 47 12 71 8c17-3 31-10 48-11 14-1 27 1 40 4s25 6 39 6 29-2 35-8V9H0z" opacity=".5"/></g></svg>'); 
-    }
     
-    @media (min-width:2100px){
-    .shape-2683::before{
-    background-size: 100% calc(2vw + 54px);
-    }
-    }
+
+.shape-7168{
+overflow:hidden;
+position:relative;
+}
+.shape-7168::before{ 
+content:'';
+font-family:'shape divider from ShapeDividers.com';
+position: absolute;
+z-index: 3;
+pointer-events: none;
+background-repeat: no-repeat;
+bottom: -0.1vw;
+left: -0.1vw;
+right: -0.1vw;
+top: -0.1vw; 
+transform:scaleX(2.8);
+transform-origin: 100% 0;
+animation: 4s infinite alternate shape-anim-7168  linear;
+background-size: 100% 95px;
+background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%23191715"><path d="M907 19c-55-5-97 5-109 8-44 12-44 24-101 44-36 12-63 21-97 20-46-1-81-20-100-33-19 13-54 32-100 33-34 1-61-8-97-20-57-20-57-32-101-44-12-3-54-13-109-8A306 306 0 000 43V0h1000v43a306 306 0 00-93-24z"/><path d="M50 38s76-32 155 2c0 0-65-21-155-2z" opacity=".5"/><path d="M80 46s47-20 95 1c0 0-40-13-95-1z" opacity=".3"/><path d="M801 38s76-32 155 2c0 0-65-21-155-2z" opacity=".5"/><path d="M831 46s47-20 95 1c0 0-40-13-95-1z" opacity=".3"/></g></svg>'); 
+}
+
+@media (min-width:2100px){
+.shape-7168::before{
+background-size: 100% calc(2vw + 95px);
+}
+}
+
+@keyframes shape-anim-7168 {
+  100% {
+    transform: scaleX(2.8) translateX(calc(100% - (100% / 2.8)));
+  }
+}
+
+   
     
-    @keyframes shape-anim-2683 {
-      100% {
-        transform: scaleX(4) translateX(calc(100% - (100% / 4)));
-      }
-    }
+       
     
        
         
