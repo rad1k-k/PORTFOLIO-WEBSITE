@@ -66,27 +66,51 @@ function reveal() {
 
 
 //Javascript for Work section
-let previewContainer = document.querySelector(".project-preview");
-let previewBox = previewContainer.querySelectorAll(".preview");
+// let previewContainer = document.querySelector(".project-preview");
+// let previewBox = previewContainer.querySelectorAll(".preview");
 
-document.querySelectorAll(".myprojects .project").forEach(product => {
-    product.onclick = () => {
-        previewContainer.style.display = "flex";
-        let name = product.getAttribute("data-name");
-        previewBox.forEach(preview => {
-            let target = preview.getAttribute("data-target");
-            if(name == target) {
-                preview.classList.add("active");
-            }
-        });
-    };
-});
+// document.querySelectorAll(".myprojects .project").forEach(product => {
+//     product.onclick = () => {
+//         previewContainer.style.display = "flex";
+//         let name = product.getAttribute("data-name");
+//         previewBox.forEach(preview => {
+//             let target = preview.getAttribute("data-target");
+//             if(name == target) {
+//                 preview.classList.add("active");
+//             }
+//         });
+//     };
+// });
 
-previewBox.forEach(close => {
-    close.querySelector(".fa-times").onclick = () => {
-        close.classList.remove("active");
-        previewContainer.style.display = "none";
-    };
-});
+// previewBox.forEach(close => {
+//     close.querySelector(".fa-times").onclick = () => {
+//         close.classList.remove("active");
+//         previewContainer.style.display = "none";
+//     };
+// });
 
 
+
+// WORK GALLERY
+const filterContainer = document.querySelector(".gallery-filter"),
+ galleryItems = document.querySelectorAll(".gallery-item");
+
+ filterContainer.addEventListener("click", (event) =>{
+   if(event.target.classList.contains("filter-item")){
+   	 // deactivate existing active 'filter-item'
+   	 filterContainer.querySelector(".active").classList.remove("active");
+   	 // activate new 'filter-item'
+   	 event.target.classList.add("active");
+   	 const filterValue = event.target.getAttribute("data-filter");
+   	 galleryItems.forEach((item) =>{
+       if(item.classList.contains(filterValue) || filterValue === 'all'){
+       	item.classList.remove("hide");
+       	 item.classList.add("show");
+       }
+       else{
+       	item.classList.remove("show");
+       	item.classList.add("hide");
+       }
+   	 });
+   }
+ });
