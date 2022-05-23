@@ -4,48 +4,59 @@
          padding: 12px 20px;
      }
 
+
      header.sticky {
          padding: 10px 20px;
+         
      }
 
      header .navigation {
          display: none;
+        
      }
+
 
      header .navigation.active {
          z-index: 888;
          position: fixed;
-         background: rgb(131, 53, 92);
+         background: #262626;
          top: 0;
          right: 0;
-         width: 380px;
-         height: 100%;
+         width: 100vw;
+         height: 100vh;
          display: flex;
          justify-content: center;
          align-items: center;
          flex-direction: column;
          box-shadow: 0 5px 25px rgba(1 1 1  / 15%);
-         transition: 0.3 ease;
+         transition: 0.9 ease; 
+
+         box-shadow: 5px 5px 5px #4e4c4c inset,
+                    -5px -5px 5px #333 inset;
      }
 
+   
+
      header .navigation a {
-         color: #000;
-         font-size: 1.2em;
-         margin: 10px;
-         padding: 0 20px;
+         color: #fff;
+         font-size: 1.4em;
+         margin: 15px;
+         padding: 20px 20px;
          border-radius: 20px;
+         transition: all 0.5 smooth;
      }
 
      header .navigation a:hover {
-         background: #3a6cf4;
-         color: #fff;
-         transition: 0.3s ease;
-     }
+        background-color: #262626;;
+        box-shadow: -5px -5px 10px #262626; inset;
+        color: rgb(171, 163, 171);
+        transform: scale(1.2);
+    }
 
 
      .menu-btn {
          position: absolute;
-         background: url(img/menu.png)no-repeat;
+         background: url(img/menu\ r.png)no-repeat;
          background-size: 30px;
          background-position: center;
          width: 40px;
@@ -54,6 +65,8 @@
          margin: 0 20px;
          cursor: pointer;
          transition: 0.3s ease;
+
+        
      }
 
      .menu-btn.active {
@@ -70,11 +83,11 @@
      }
 
      .main .content h2 {
-         font-size: 1em;
+         font-size: 1.4em;
      }
 
      .animated-text h3 {
-         font-size: 2.2em;
+         font-size: 2.0em;
      }
 
      .section-title {
