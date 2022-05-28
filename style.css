@@ -427,7 +427,11 @@ header .navigation a {
 }
 
 header .navigation a span {
-    color: #afaeae;
+    color: #b22222;
+}
+
+header .navigation a span:hover {
+    color: #fff;
 }
 
 header .navigation a:hover {
