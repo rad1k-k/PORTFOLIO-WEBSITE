@@ -571,7 +571,7 @@ body {
 .about .content .col-left .img-card {
     position: relative;
     width: 100%;
-    min-height: 450px;
+    min-height: 530px;
 }
 
 .about .content .col-left .img-card img {
@@ -924,6 +924,11 @@ body {
 }
 
 
+.title p {
+    line-height: 25px;
+
+}
+
 
 /** WORK GALLERY **/
 
@@ -973,9 +978,10 @@ body {
 	height: 100%;
 }
 
+
 .image-work .details h2 {
 	text-align: center;
-	font-size: 35px;
+	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 300;
 	margin-top: 70px;
@@ -989,6 +995,7 @@ body {
     opacity: 1;
     font-weight: 750;
 	/* transform: translateY(-30px); */
+   
 }
 
 .image-work .details p {
@@ -2093,29 +2100,19 @@ article {
 
 .aboutme-text {
     width: 80%;
-    margin: 20px;
-    padding: 40px;
+    margin-top: 30px;
+    padding-top: 30px;
     z-index: 500;
+    line-height: 25px;
 }
 
-
-
 .aboutme-text p {
-    border-left: 5px solid #2370a5;
-    padding-left: 5px;
     color: rgb(255, 253, 253);
 }
 
 .aboutme-text h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(252, 252, 252);
-}
-
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .aboutme-text p {
