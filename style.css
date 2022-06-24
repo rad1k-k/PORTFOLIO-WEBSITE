@@ -313,7 +313,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 200px;
+    padding: 15px 135px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -689,7 +689,7 @@ body {
     width: 300px;
     min-height: 350px;
     height: auto;
-    background-color: #3a2f2f;
+    background-color: #9A0E1C;
     /* background-image: url("https://images.wallpaperscraft.com/image/single/cherry_ripe_wet_130316_800x600.jpg"); */
     background-size: cover;
     background-position: center;
@@ -865,7 +865,7 @@ body {
 
 .icons a:hover {
     background-position: 0% 100%;
-    color: #871317;
+    color: #9A0E1C;
     transform: scale(1.15);
     border-radius: 50%;
 }
@@ -2076,11 +2076,9 @@ article {
     background-position: center;
     background-attachment: fixed;
     /* border: 11px solid #b2bec7; */
-    padding: 100px;
-    margin: 20px auto;
 
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0 100px;
     display: flex;
 	justify-content: center;
     align-items: center;
@@ -2111,8 +2109,9 @@ article {
 }
 
 .aboutme-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(252, 252, 252);
+    text-transform: uppercase;
 }
 
 .aboutme-text p {
